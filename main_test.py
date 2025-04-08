@@ -3,7 +3,6 @@ from selenium import webdriver
 from base.locators import Links as links
 from pages.buyMe import BuyMe
 import json
-import time
 
 class TestBuyMe(TestCase):
     def setUp(self) -> None:
